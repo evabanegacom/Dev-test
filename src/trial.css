@@ -1,0 +1,33 @@
+.trial {
+  width: 28%;
+  background: rgb(27, 26, 26);
+}
+
+.first,
+.second,
+.third {
+  width: 60%;
+  margin: auto;
+}
+
+.first {
+  margin-top: 50px;
+}
+
+.second {
+  margin-top: 80px;
+  display: flex;
+  flex-direction: column;
+}
+
+.third {
+  margin-top: 150px;
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  border: 1px solid rgb(97, 96, 96);
+  align-items: center;
+  border-radius: 10px;
+  border-left: 1px solid transparent;
+  margin-bottom: 30px;
+}

@@ -1,0 +1,16 @@
+.premium {
+  display: flex;
+  flex-direction: column;
+  width: 50%;
+  border: 1px solid black;
+}
+
+.trialDays,
+.numbers,
+.users,
+.modules,
+.continue {
+  width: 80%;
+  margin: auto;
+  border: 1px solid red;
+}
