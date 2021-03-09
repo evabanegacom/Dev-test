@@ -18,8 +18,8 @@ const Trial = () => {
               <div><p style={{ color: 'lightgrey', fontSize: '13px'}}>Get started</p></div>
           </div>
           <div className='third'>
-              <div><i style={{ color: 'grey', fontSize: '40px', marginLeft: '-10px'}} class="fa fa-quote-left" aria-hidden="true"></i></div>
-              <div style={{width: '53%', marginLeft: '20px'}}><p style={{ color: 'lightgrey', fontSize: '11px', lineHeight: '20px'}}>Success is not final; failure is not fatal;
+              <div><i style={{ color: 'grey', fontSize: '40px', marginLeft: '-15px'}} class="fa fa-quote-left" aria-hidden="true"></i></div>
+              <div style={{width: '56%', marginLeft: '20px'}}><p style={{ color: 'lightgrey', fontSize: '10px', lineHeight: '20px'}}>Success is not final; failure is not fatal;
               it is the courage to continue that counts.
               <pre style={{marginTop: '0px', color: '#FFFFFF', fontWeight: 'bold'}}>-Winston Churchill</pre></p></div>
           </div>

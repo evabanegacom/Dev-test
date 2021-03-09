@@ -10,7 +10,17 @@
 .users,
 .modules,
 .continue {
-  width: 80%;
+  width: 70%;
   margin: auto;
   border: 1px solid red;
+}
+
+.trialDays {
+    display: flex;
+    justify-content: space-between;
+}
+
+.NGN {
+  display: flex;
+  flex-direction: column;
 }
