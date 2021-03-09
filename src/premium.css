@@ -24,7 +24,7 @@
 }
 
 .numbers {
-  margin-top: 20px;
+  margin-top: 40px;
   display: flex;
   justify-content: space-between;
 }
@@ -51,4 +51,20 @@
   background: rgb(250, 250, 38);
   font-weight: bold;
   font-size: 13px;
+}
+
+.basic p {
+  color: grey;
+  font-size: 10px;
+}
+
+.users {
+  margin-top: 20px;
+}
+
+.numUsers {
+  border: 1px solid #FFFFFF;
+  -webkit-box-shadow: -5px 5px 5px -3px rgb(169, 169, 241);
+  box-shadow: -5px 5px 5px -3px rgb(169, 169, 241);  
+  width: 50%;
 }
