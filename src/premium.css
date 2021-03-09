@@ -1,6 +1,4 @@
 .premium {
-  display: flex;
-  flex-direction: column;
   width: 50%;
   border: 1px solid black;
 }
@@ -12,15 +10,45 @@
 .continue {
   width: 70%;
   margin: auto;
-  border: 1px solid red;
 }
 
 .trialDays {
     display: flex;
     justify-content: space-between;
+    margin-top: 50px;
 }
 
 .NGN {
   display: flex;
   flex-direction: column;
+}
+
+.numbers {
+  margin-top: 20px;
+  display: flex;
+  justify-content: space-between;
+}
+
+.continue {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.continue p {
+  color: red;
+  opacity: 0.3;
+  font-size: 13px;
+  font-weight: 700;
+}
+
+.continue button {
+  outline: none;
+  border: none;
+  padding: 10px;
+  border-radius: 10px;
+  width: 100px;
+  background: rgb(250, 250, 38);
+  font-weight: bold;
+  font-size: 13px;
 }
