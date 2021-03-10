@@ -1,5 +1,8 @@
 import React from 'react';
 import './premium.css';
+import second from './assets/second.png'
+import colored from './assets/colored.png'
+import circle from './assets/circle.png'
 
 const Premium = () => {
     return (
@@ -44,9 +47,64 @@ const Premium = () => {
           <div className='users'>
             <div><p style={{ color: 'grey', fontWeight: 'bold', fontSize: '13px'}}>Add more users</p></div>
             <div style={{ marginTop: '4px'}}><p style={{ color: 'grey', fontWeight: 'bold', fontSize: '10px'}}>NGN99,999 <span style={{ fontSize: '10px', fontWeight: '400'}}>per user</span></p></div>
-            <div></div>
+            <div><p style={{marginTop: '10px', fontSize: '10px', fontWeight: 'bolder', color: 'blue', marginLeft: '50px'}}>100</p></div>
+            <div style={{ display: 'flex', justifyContent: 'space-between', fontSize: '10px', marginTop: '3px'}}>
+              <p>0</p>
+              <p>>1000</p>
+            </div>
+            <div style={{ display: 'flex'}}>
+              <hr style={{ width: '54px', height: '5px', background: 'blue', borderRadius: '5px'}}/>
+              <img style={{marginTop: '-8px'}} src={circle} alt='' />
+              <hr style={{ width: '400px', height: '5px', background: 'lightgrey', borderRadius: '5px'}}/>
+            </div>
           </div>
-          <div className='modules'>4</div>
+          <div className='modules'>
+            <div style={{ display: 'flex', alignItems: 'center'}}>
+              <div style={{width: '20%', fontSize: '8px', opacity: '0.6', fontWeight: 'bolder' }}><pre>ALL MODULES</pre></div>
+              <div style={{ width: '100%', color: 'grey', opacity: '0.4'}}><hr /></div>
+            </div>
+            <div style={{ display: 'flex', marginTop: '10px', justifyContent: 'space-between', alignItems: 'center'}}>
+              <div style={{ display: 'flex', alignItems: 'center', width: '20%'}}>
+                <div><img src={colored} alt='' /></div>
+              </div>
+              <div style={{ display: 'flex', alignItems: 'center', width: '20%'}}>
+                <div><img src={second} alt='' /></div>
+                <div><p style={{ fontSize: '8px', color: 'grey'}}>corporate universe</p></div>
+              </div>
+              <div style={{ display: 'flex', alignItems: 'center', width: '20%'}}>
+                <div><img src={second} alt='' /></div>
+                <div><p style={{ fontSize: '8px', color: 'grey'}}>corporate universe</p></div>
+              </div>
+            </div>
+            <div style={{ display: 'flex', marginTop: '10px', justifyContent: 'space-between', alignItems: 'center'}}>
+              <div style={{ display: 'flex', alignItems: 'center', width: '20%'}}>
+                <div><img src={second} alt='' /></div>
+                <div><p style={{ fontSize: '8px', color: 'grey'}}>corporate universe</p></div>
+              </div>
+              <div style={{ display: 'flex', alignItems: 'center', width: '20%'}}>
+                <div><img src={second} alt='' /></div>
+                <div><p style={{ fontSize: '8px', color: 'grey'}}>corporate universe</p></div>
+              </div>
+              <div style={{ display: 'flex', alignItems: 'center', width: '20%'}}>
+                <div><img src={second} alt='' /></div>
+                <div><p style={{ fontSize: '8px', color: 'grey'}}>corporate universe</p></div>
+              </div>
+            </div>
+            <div style={{ display: 'flex', marginTop: '10px', justifyContent: 'space-between', alignItems: 'center'}}>
+              <div style={{ display: 'flex', alignItems: 'center', width: '20%'}}>
+                <div><img src={second} alt='' /></div>
+                <div><p style={{ fontSize: '8px', color: 'grey'}}>corporate universe</p></div>
+              </div>
+              <div style={{ display: 'flex', alignItems: 'center', width: '20%'}}>
+                <div><img src={second} alt='' /></div>
+                <div><p style={{ fontSize: '8px', color: 'grey'}}>corporate universe</p></div>
+              </div>
+              <div style={{ display: 'flex', alignItems: 'center', width: '20%'}}>
+                <div><img src={second} alt='' /></div>
+                <div><p style={{ fontSize: '8px', color: 'grey'}}>corporate universe</p></div>
+              </div>
+            </div>
+          </div>
           <div className='continue'>
             <div><p>Go Back</p></div>
             <div><button>Continue</button></div>

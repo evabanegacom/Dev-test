@@ -33,6 +33,7 @@
   display: flex;
   justify-content: space-between;
   align-items: center;
+  margin-top: 20px;
 }
 
 .continue p {
@@ -67,4 +68,18 @@
   -webkit-box-shadow: -5px 5px 5px -3px rgb(169, 169, 241);
   box-shadow: -5px 5px 5px -3px rgb(169, 169, 241);  
   width: 50%;
+}
+
+.modules {
+  display: flex;
+  flex-direction: column;
+  border-bottom: 1px dashed grey;
+  margin-top: 30px;
+  padding-bottom: 20px;
+}
+
+.modules hr {
+  color: grey;
+  width: 20px;
+  width: 100%;
 }
