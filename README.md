@@ -55,10 +55,6 @@ To have this app on your pc, you need to:
   ```
   npm start OR yarn start
 
-  - Run test with:
-  ```
-  npm test
-
 # Live Demo
 - (https://sleepy-pasteur-6be79d.netlify.app/)
 
