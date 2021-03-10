@@ -60,7 +60,7 @@ To have this app on your pc, you need to:
   npm test
 
 # Live Demo
-- (https://app.netlify.com/sites/sleepy-pasteur-6be79d/overview/)
+- (https://sleepy-pasteur-6be79d.netlify.app/)
 
 
 ### Built With
