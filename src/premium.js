@@ -3,6 +3,12 @@ import './premium.css';
 import second from './assets/second.png'
 import colored from './assets/colored.png'
 import circle from './assets/circle.png'
+import first from './assets/first.png'
+import chart from './assets/chart.png'
+import users from './assets/users.png'
+import groups from './assets/groups.png'
+import book from './assets/none.png'
+import contract from './assets/icons.png'
 
 const Premium = () => {
     return (
@@ -55,7 +61,7 @@ const Premium = () => {
             <div style={{ display: 'flex'}}>
               <hr style={{ width: '54px', height: '5px', background: 'blue', borderRadius: '5px'}}/>
               <img style={{marginTop: '-8px'}} src={circle} alt='' />
-              <hr style={{ width: '400px', height: '5px', background: 'lightgrey', borderRadius: '5px'}}/>
+              <hr style={{ width: '400px', height: '5px', background: 'rgb(211, 211, 247)', borderRadius: '5px'}}/>
             </div>
           </div>
           <div className='modules'>
@@ -69,39 +75,35 @@ const Premium = () => {
               </div>
               <div style={{ display: 'flex', alignItems: 'center', width: '20%'}}>
                 <div><img src={second} alt='' /></div>
-                <div><p style={{ fontSize: '8px', color: 'grey'}}>corporate universe</p></div>
+                <div><p style={{ fontSize: '9px', color: 'grey', opacity: '0.7', marginLeft: '5px'}}>Corporate Universe</p></div>
               </div>
               <div style={{ display: 'flex', alignItems: 'center', width: '20%'}}>
-                <div><img src={second} alt='' /></div>
-                <div><p style={{ fontSize: '8px', color: 'grey'}}>corporate universe</p></div>
-              </div>
-            </div>
-            <div style={{ display: 'flex', marginTop: '10px', justifyContent: 'space-between', alignItems: 'center'}}>
-              <div style={{ display: 'flex', alignItems: 'center', width: '20%'}}>
-                <div><img src={second} alt='' /></div>
-                <div><p style={{ fontSize: '8px', color: 'grey'}}>corporate universe</p></div>
-              </div>
-              <div style={{ display: 'flex', alignItems: 'center', width: '20%'}}>
-                <div><img src={second} alt='' /></div>
-                <div><p style={{ fontSize: '8px', color: 'grey'}}>corporate universe</p></div>
-              </div>
-              <div style={{ display: 'flex', alignItems: 'center', width: '20%'}}>
-                <div><img src={second} alt='' /></div>
-                <div><p style={{ fontSize: '8px', color: 'grey'}}>corporate universe</p></div>
+                <div><img src={contract} alt='' /></div>
+                <div><p style={{ fontSize: '9px', color: 'grey', opacity: '0.7', marginLeft: '5px'}}>Contract Domain</p></div>
               </div>
             </div>
             <div style={{ display: 'flex', marginTop: '10px', justifyContent: 'space-between', alignItems: 'center'}}>
               <div style={{ display: 'flex', alignItems: 'center', width: '20%'}}>
-                <div><img src={second} alt='' /></div>
-                <div><p style={{ fontSize: '8px', color: 'grey'}}>corporate universe</p></div>
+                <div><img src={first} alt='' /></div>
+                <div><p style={{ fontSize: '9px', color: 'grey', opacity: '0.7', marginLeft: '5px'}}>Investor Relations</p></div>
               </div>
               <div style={{ display: 'flex', alignItems: 'center', width: '20%'}}>
-                <div><img src={second} alt='' /></div>
-                <div><p style={{ fontSize: '8px', color: 'grey'}}>corporate universe</p></div>
+                <div><img src={users} alt='' /></div>
+                <div><p style={{ fontSize: '9px', color: 'grey', opacity: '0.7', marginLeft: '5px'}}>Dispue Portfolio</p></div>
               </div>
               <div style={{ display: 'flex', alignItems: 'center', width: '20%'}}>
-                <div><img src={second} alt='' /></div>
-                <div><p style={{ fontSize: '8px', color: 'grey'}}>corporate universe</p></div>
+                <div><img src={book} alt='' /></div>
+                <div><p style={{ fontSize: '9px', color: 'grey', opacity: '0.7', marginLeft: '5px'}}>Minute Book</p></div>
+              </div>
+            </div>
+            <div style={{ display: 'flex', marginTop: '10px', alignItems: 'center'}}>
+              <div style={{ display: 'flex', alignItems: 'center', width: '20%'}}>
+                <div><img src={chart} alt='' /></div>
+                <div><p style={{ fontSize: '9px', color: 'grey', opacity: '0.7', marginLeft: '5px'}}>Reporting Tool</p></div>
+              </div>
+              <div style={{ display: 'flex', alignItems: 'center', width: '20%', marginLeft: '90px'}}>
+                <div><img src={groups} alt='' /></div>
+                <div><p style={{ fontSize: '9px', color: 'grey', opacity: '0.7', marginLeft: '5px'}}>Attendance Register</p></div>
               </div>
             </div>
           </div>
